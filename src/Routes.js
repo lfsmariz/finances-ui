@@ -3,6 +3,7 @@ import Home from "./pages/Home"
 import RegisterBank from "./pages/RegisterBank"
 import RegisterUser from "./pages/RegisterUser"
 import RegisterWallet from "./pages/RegisterWallet"
+import Transfer from "./pages/Transfer"
 
 const Routes = () => {
 
@@ -23,6 +24,10 @@ const Routes = () => {
 
       <Route exact path="/register-wallet">
         <RegisterWallet/>
+      </Route>
+
+      <Route exact path="/transfer">
+        <Transfer/>
       </Route>
     </Switch>
   </BrowserRouter>

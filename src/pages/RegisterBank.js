@@ -7,8 +7,8 @@ const RegisterBank = () => {
       <div className="container my-5">
           <h1>Cadastrar Banco</h1>
       </div>
-      <div className="container my-5">
-        <div className="mb-3">
+      <div className="container my-5 border border-dark">
+        <div className="mb-3 my-2">
           <label for="username" className="form-label">Usuário:</label>
           <select className="form-select" id="username">
             <option selected>Selecione o usuário</option>
@@ -34,11 +34,17 @@ const RegisterBank = () => {
           <label for="account-name" className="form-label">Nome da Conta:</label>
           <input type="email" className="form-control" id="account-name" placeholder="conta 1"/>
         </div>
-        <div className="row fixed-bottom my-5 mx-5">
+        <div className="row my-5 mx-5">
+          <Link to="/" className="btn btn-success col mx-4">
+            Cadastrar Banco
+          </Link>
+        </div>
+        
+      </div>
+      <div className="row my-5 mx-5">
           <Link to="/" className="btn btn-primary col mx-4">
             Voltar para home
           </Link>
-        </div>
       </div>
     </div>
   )

@@ -3,13 +3,13 @@ import { Link } from "react-router-dom";
 const RegisterWallet = () => {
 
   return (
-    <div>
+    <div className="container my-5 align-items-center">
       <div className="container my-5">
           <h1>Cadastrar Carteira</h1>
       </div>
 
-      <div className="container my-5">
-        <div className="mb-3">
+      <div className="container my-5 align-items-center border border-dark">
+        <div className="mb-3 my-2">
           <label for="wallet-name" className="form-label">Nome da Carteira:</label>
           <input type="email" className="form-control" id="wallet-name" placeholder="Reserva"/>
         </div>
@@ -36,8 +36,14 @@ const RegisterWallet = () => {
             </label>
           </div>          
         </div>
+        <div className="row my-5 mx-auto w-75" >
+            <Link to="/" className="btn btn-success col mx-4">
+              Cadastrar Carteira
+            </Link>
+        </div>
       </div>
-      <div className="row fixed-bottom my-5 mx-5">
+      
+      <div className="row my-5 mx-auto" >
             <Link to="/" className="btn btn-primary col mx-4">
               Voltar para home
             </Link>
