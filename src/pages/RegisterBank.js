@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import CustomHeader from "../components/CustomHeader";
+import ListBanks from "../components/ListBanks";
 
 const RegisterBank = () => {
 
@@ -38,7 +39,7 @@ const RegisterBank = () => {
             Cadastrar Banco
           </Link>
         </div>
-        
+        <ListBanks />
       </div>
     </div>
   )

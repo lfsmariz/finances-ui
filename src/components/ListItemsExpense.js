@@ -1,7 +1,7 @@
 const ListItemsExpense = () => {
   return(
     <div className="container my-4">
-      <table class="table table-secondary table-striped">
+      <table class="table table-secondary table-striped center-text">
         <thead>
           <tr>
             <th scope="col">#</th>
@@ -10,6 +10,7 @@ const ListItemsExpense = () => {
             <th scope="col">Quantidade</th>
             <th scope="col">Unidade</th>
             <th scope="col">Subtotal</th>
+            <th scope="col">Excluir</th>
           </tr>
         </thead>
         <tbody>
@@ -20,6 +21,11 @@ const ListItemsExpense = () => {
             <td>5</td>
             <td>kilograma</td>
             <td>50</td>
+            <td>
+              <button className="btn btn-danger">
+                Deletar Item
+              </button>
+            </td>
           </tr>
           <tr>
             <th scope="row">2</th>
@@ -28,6 +34,11 @@ const ListItemsExpense = () => {
             <td>5</td>
             <td>kilograma</td>
             <td>50</td>
+            <td>
+              <button className="btn btn-danger">
+                Deletar Item
+              </button>
+            </td>
           </tr>
           <tr>
             <th scope="row">3</th>
@@ -36,7 +47,13 @@ const ListItemsExpense = () => {
             <td>5</td>
             <td>kilograma</td>
             <td>50</td>
-          </tr>      
+            <td>
+              <button className="btn btn-danger">
+                Deletar Item
+              </button>
+            </td>
+          </tr>
+           
         </tbody>
       </table>
     </div>

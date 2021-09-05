@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import CustomHeader from "../components/CustomHeader";
+import ListUsers from "../components/ListUsers";
 
 const RegisterUser = () => {
 
@@ -17,6 +18,7 @@ const RegisterUser = () => {
             Cadastrar Usuário
           </Link>
         </div>
+        <ListUsers />        
       </div>
     </div>
   )

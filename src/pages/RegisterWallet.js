@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import CustomHeader from "../components/CustomHeader";
+import ListWallets from "../components/ListWallets";
 
 const RegisterWallet = () => {
 
@@ -40,6 +41,7 @@ const RegisterWallet = () => {
               Cadastrar Carteira
             </Link>
         </div>
+        <ListWallets />
       </div>
     </div>
   )
