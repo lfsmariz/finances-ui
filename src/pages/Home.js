@@ -40,7 +40,7 @@ const Home = () => {
           </div>
           <div className="row mt-5 px-4">
             <div className="btn-group-vertical">
-              <Link to="" class="btn btn-primary my-2">Despesas</Link>
+              <Link to="expenses-history" class="btn btn-primary my-2">Despesas</Link>
               <Link to="" class="btn btn-primary my-2">Recebimentos</Link>
               <Link to="" class="btn btn-primary my-2">Transferências</Link>
             </div>

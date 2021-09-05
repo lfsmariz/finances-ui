@@ -1,4 +1,5 @@
 import { BrowserRouter, Route, Switch } from "react-router-dom"
+import ExpensesHistory from "./pages/ExpensesHistory"
 import Home from "./pages/Home"
 import Receivement from "./pages/Receivement"
 import RegisterBank from "./pages/RegisterBank"
@@ -43,6 +44,10 @@ const Routes = () => {
 
       <Route exact path="/register-receivement">
         <Receivement/>
+      </Route>
+
+      <Route exact path="/expenses-history">
+        <ExpensesHistory />
       </Route>
 
     </Switch>
