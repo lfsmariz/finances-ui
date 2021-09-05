@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Modal, Button } from "react-bootstrap";
+import { Button } from "react-bootstrap";
 import ModalListBanks from "./ModalListBanks";
 
 const ListWallets = () => {
