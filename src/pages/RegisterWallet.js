@@ -1,12 +1,11 @@
 import { Link } from "react-router-dom";
+import CustomHeader from "../components/CustomHeader";
 
 const RegisterWallet = () => {
 
   return (
     <div className="container my-5 align-items-center">
-      <div className="container my-5">
-          <h1>Cadastrar Carteira</h1>
-      </div>
+      <CustomHeader>Registrar Carteira</CustomHeader>
 
       <div className="container my-5 align-items-center border border-dark">
         <div className="mb-3 my-2">
@@ -41,12 +40,6 @@ const RegisterWallet = () => {
               Cadastrar Carteira
             </Link>
         </div>
-      </div>
-      
-      <div className="row my-5 mx-auto" >
-            <Link to="/" className="btn btn-primary col mx-4">
-              Voltar para home
-            </Link>
       </div>
     </div>
   )

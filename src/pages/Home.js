@@ -9,12 +9,12 @@ const Home = () => {
             <h1 className="center-title">TATU's Bank</h1>
         </div>
         <div className=" my-3 col">
-          <Link to="register-user" className="btn btn-primary col mx-4">
+          <Link to="receivement" className="btn btn-primary col mx-4">
             Registrar Recebimento
           </Link>
         </div>
         <div className=" my-3 col">
-          <Link to="register-user" className="btn btn-primary col mx-4">
+          <Link to="register-expense" className="btn btn-primary col mx-4">
             Registrar Despesa
           </Link>
         </div>
@@ -33,6 +33,9 @@ const Home = () => {
         </Link>
         <Link to="register-wallet" className="btn btn-primary col mx-4">
           Cadastrar Carteira
+        </Link>
+        <Link to="register-expense-type" className="btn btn-primary col mx-4">
+          Cadastrar Tipo Despesa
         </Link>
       </div>
     </div>      

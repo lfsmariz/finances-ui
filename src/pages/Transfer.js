@@ -1,12 +1,11 @@
 import { Link } from "react-router-dom";
+import CustomHeader from "../components/CustomHeader";
 
 const Transfer = () => {
 
   return (
     <div>
-      <div className="container my-5">
-          <h1>Tranferência</h1>
-      </div>
+      <CustomHeader>Transferência</CustomHeader>
       <div className="container my-5 border border-dark">
         <div className="mb-3 my-2">
           <label for="sender" className="form-label">Banco de Origem</label>
@@ -38,11 +37,6 @@ const Transfer = () => {
           </Link>
         </div>
         
-      </div>
-      <div className="row my-5 mx-5">
-          <Link to="/" className="btn btn-primary col mx-4">
-            Voltar para home
-          </Link>
       </div>
     </div>
   )
