@@ -4,39 +4,48 @@ const Home = () => {
 
   return (
     <div className="container">
-      <div className="height-define row align-items-center ">
-        <div className=" my-3 col-6">
-            <h1 className="center-title">TATU's Bank</h1>
+      <div className="row align-items-start height-define justify-content-between mt-medium">
+        <div className="col-4 height-define border-end border-dark">
+          <h1>TATU's BANK</h1>
+          <p>O banco dos tatu para controle de finanças</p>
         </div>
-        <div className=" my-3 col">
-          <Link to="receivement" className="btn btn-primary col mx-4">
-            Registrar Recebimento
-          </Link>
+        <div className="col height-define border-end border-dark">
+          <div className="row">
+            <h2 className="center-text">Cadastros</h2>
+          </div>
+          <div className="row mt-5">
+            <div className="btn-group-vertical px-4">
+              <Link to="register-user" class="btn btn-primary my-2">Usuário</Link>
+              <Link to="register-bank" class="btn btn-primary my-2">Banco</Link>
+              <Link to="register-wallet" class="btn btn-primary my-2">Carteira</Link>
+              <Link to="register-expense-type" class="btn btn-primary my-2">Tipo de Despesa</Link>
+            </div>
+          </div>
         </div>
-        <div className=" my-3 col">
-          <Link to="register-expense" className="btn btn-primary col mx-4">
-            Registrar Despesa
-          </Link>
+        <div className="col height-define border-end border-dark">
+          <div className="row">
+            <h2 className="center-text">Operações</h2>
+          </div>
+          <div className="row mt-5 px-4">
+            <div className="btn-group-vertical">
+              <Link to="register-expense" class="btn btn-primary my-2">Despesa</Link>
+              <Link to="register-receivement" class="btn btn-primary my-2">Recebimento</Link>
+              <Link to="register-transfer" class="btn btn-primary my-2">Transferência</Link>
+            </div>
+          </div>
         </div>
-        <div className=" my-3 col">
-          <Link to="transfer" className="btn btn-primary col mx-4">
-            Registrar Tranferência
-          </Link>
+        <div className="col height-define border-end border-dark">
+          <div className="row">
+            <h2 className="center-text">Relatórios</h2>
+          </div>
+          <div className="row mt-5 px-4">
+            <div className="btn-group-vertical">
+              <Link to="" class="btn btn-primary my-2">Despesas</Link>
+              <Link to="" class="btn btn-primary my-2">Recebimentos</Link>
+              <Link to="" class="btn btn-primary my-2">Transferências</Link>
+            </div>
+          </div>
         </div>
-      </div>
-      <div className="row my-5 mx-5">
-        <Link to="register-user" className="btn btn-primary col mx-4">
-          Cadastrar Usuário
-        </Link>
-        <Link to="register-bank" className="btn btn-primary col mx-4">
-          Cadastrar Banco
-        </Link>
-        <Link to="register-wallet" className="btn btn-primary col mx-4">
-          Cadastrar Carteira
-        </Link>
-        <Link to="register-expense-type" className="btn btn-primary col mx-4">
-          Cadastrar Tipo Despesa
-        </Link>
       </div>
     </div>      
   )

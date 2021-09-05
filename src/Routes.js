@@ -29,7 +29,7 @@ const Routes = () => {
         <RegisterWallet/>
       </Route>
 
-      <Route exact path="/transfer">
+      <Route exact path="/register-transfer">
         <Transfer/>
       </Route>
 
@@ -41,7 +41,7 @@ const Routes = () => {
         <RegisterExpense/>
       </Route>
 
-      <Route exact path="/receivement">
+      <Route exact path="/register-receivement">
         <Receivement/>
       </Route>
 
