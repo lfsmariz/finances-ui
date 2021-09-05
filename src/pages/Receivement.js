@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom"
 import CustomHeader from "../components/CustomHeader"
-import FormExpense from "../components/FormExpense"
 import FormReceivement from "../components/FormReceivement"
 
 const Receivement = () => {

@@ -1,5 +1,4 @@
 import FormRegExpenseType from "../components/FormRegExpenseType";
-import HeaderRegExpenseType from "../components/CustomHeader";
 import ListExpenseType from "../components/ListExpenseType";
 import CustomHeader from "../components/CustomHeader";
 
